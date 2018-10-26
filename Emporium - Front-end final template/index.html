@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emporium</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- WRAPPER1 -->
+
+    <div class="wrp1_top_side">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 cbmw1">
+                    <i class="fas fa-phone"></i>
+                    <span>Hotline: (+100) 123 456 7890</span>
+                </div>
+                <div class="col-md-3 cbmw2">
+                    <span>Welcome to our market!</span>
+                </div>
+                <div class="col-md-4 cbmw3">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">USD</button>
+                            <div class="dropdown-menu drpmn1">
+                                <a class="dropdown-item" href="#">USD</a>
+                                <a class="dropdown-item" href="#">EUR</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">ENGLISH</button>
+                            <div class="dropdown-menu drpmn2">
+                                <a class="dropdown-item" href="#">TURKISH</a>
+                                <a class="dropdown-item" href="#">ENGLISH</a>
+                                <a class="dropdown-item" href="#">GERMAN</a>
+                                <a class="dropdown-item" href="#">FRENCH</a>
+                                <a class="dropdown-item" href="#">RUSSIAN</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="disp1" href="#">COMPARE(0)</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="disp2" href="#">WISHLIST(0)</button>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>ACCOUNT</button>
+                            <div class="dropdown-menu drpmn3">
+                                <div class="container">
+                                    <div class="drpmn3top">
+                                        <div class="row">
+                                            <div class="col-md-4 cat4">
+                                                <img src="img/user.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-8 cat8">
+                                                <p>Emilio Verdines</p>
+                                                <p>emilio_v (152<i class="fas fa-star"></i>)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="drpmn3middle">
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-cog"></i>Account Settings</a></li>
+                                            <li><a href="#"><i class="fas fa-lock"></i>Lock screen</a></li>
+                                            <li><a href="#"><i class="fas fa-question-circle"></i>Help</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="drpmn3bottom">
+                                        <a href="#"><i class="fas fa-power-off"></i></i>Sign Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#">EMPORIUM</a>
+                </div>
+                <div class="col-md-8 cyr8">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Categories
+                        </button>
+                        <div class="dropdown-menu dypmn1" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">All Categories</a>
+                            <a class="dropdown-item" href="#">Fashion</a>
+                            <ul>
+                                <li><a class="dropdown-item" href="#">Women</a>
+                                <li><a class="dropdown-item" href="#">Dresses & Skirts</a></li>
+                                <li><a class="dropdown-item" href="#">Jackets</a></li>
+                                <li><a class="dropdown-item" href="#">Top & Blouses</a></li>
+                                <li><a class="dropdown-item" href="#">Shoes & Boots</a></li>
+                                <li><a class="dropdown-item" href="#">Knitwear</a></li>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><a class="dropdown-item" href="#">Men</a>
+                                <li><a class="dropdown-item" href="#">T-shirts & Polos</a></li>
+                                <li><a class="dropdown-item" href="#">Shoes & Boots</a></li>
+                                <li><a class="dropdown-item" href="#">Jeans</a></li>
+                                <li><a class="dropdown-item" href="#">Coats</a></li>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><a class="dropdown-item" href="#">Kids</a>
+                                <li><a class="dropdown-item" href="#">Top</a></li>
+                                <li><a class="dropdown-item" href="#">Pants & Shorts</a></li>
+                                <li><a class="dropdown-item" href="#">Dresses</a></li>
+                                <li><a class="dropdown-item" href="#">Skirts</a></li>
+                                <li><a class="dropdown-item" href="#">Set & Body</a></li>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><a class="dropdown-item" href="#">Accessories</a>
+                                <li><a class="dropdown-item" href="#">Watches</a></li>
+                                <li><a class="dropdown-item" href="#">Bags & Wallet</a></li>
+                                <li><a class="dropdown-item" href="#">Sunglasses</a></li>
+                                <li><a class="dropdown-item" href="#">Belts & Hatss</a></li>
+                                </li>
+                            </ul>
+                            <li><a class="dropdown-item" href="#">Electronic</a></li>
+                            <li><a class="dropdown-item" href="#">Jewellery</a></li>
+                            <li><a class="dropdown-item" href="#">Sports</a></li>
+                            <li><a class="dropdown-item" href="#">Motors</a></li>
+                        </div>
+                        <input type="text" placeholder="Type to search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle drop2" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-shopping-cart"></i>
+                            Shopping Cart
+                        </button>
+                        <div class="dropdown-menu dypmn2" aria-labelledby="dropdownMenuButton">
+                            <div class="row">
+                                <div class="col-md-6"><span>0 ITEM</span></div>
+                                <div class="col-md-6 chrt6"><a id="cyt" href="#">VIEW CART</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrp1_bottom_side">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            FASHION
+                        </a>
+                        <div class="dropdown-menu seconddropmn" aria-labelledby="navbarDropdown">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <div class="row">
+                                            <div class="col-md-3 cyt3">
+                                                <a href="#" id="top_a">WOMEN</a>
+                                                <ul>
+                                                    <li><a href="#">Dresses & Skirts</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                    <li><a href="#">Tops & Blouses</a></li>
+                                                    <li><a href="#">Shoes & Boots</a></li>
+                                                    <li><a href="#">Knitwear</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 cyt3">
+                                                <a href="#" id="top_a">MEN</a>
+                                                <ul>
+                                                    <li><a href="#">T-shirts & Polos</a></li>
+                                                    <li><a href="#">Shoes & Boots</a></li>
+                                                    <li><a href="#">Jeans</a></li>
+                                                    <li><a href="#">Coats</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 cyt3">
+                                                <a href="#" id="top_a">KIDS</a>
+                                                <ul>
+                                                    <li><a href="#">Top</a></li>
+                                                    <li><a href="#">Pants & Shorts</a></li>
+                                                    <li><a href="#">Dresses</a></li>
+                                                    <li><a href="#">Skirts</a></li>
+                                                    <li><a href="#">Set & Body</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 cyt3">
+                                                <a href="#" id="top_a">ACCESSORIES</a>
+                                                <ul>
+                                                    <li><a href="#">Watches</a></li>
+                                                    <li><a href="#">Bags & Wallet</a></li>
+                                                    <li><a href="#">Sunglasses</a></li>
+                                                    <li><a href="#">Belts & Hats</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 cyt2">
+                                        <img src="img/mega_menu_img.png" alt="">
+                                        <button>Shop now</button>
+                                        <div class="percent">20% OFF</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <a class="nav-link" href="#">JEWELLERY</a>
+                    <a class="nav-link" href="#">ELECTRONICS</a>
+                    <a class="nav-link" href="#">SPORTS</a>
+                    <a class="nav-link" href="#">MOTORS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">All Products</a>
+                            <a class="dropdown-item" href="#">Product Detail</a>
+                            <a class="dropdown-item" href="#">Contact</a>
+                            <a class="dropdown-item" href="#">Sign In</a>
+                            <a class="dropdown-item" href="#">404 Error</a>
+                            <a class="dropdown-item" href="#">Others</a>
+                        </div>
+                    </li>
+                    <a class="nav-link" href="#">CONTACT</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- WRAPPER2 -->
+    <div class="wrapper2">
+        <div class="container">
+            <div class="single-item">
+                <div class="single-slider1"><img src="img/banner1.jpg" alt="">
+                    <div class="cover">
+                        <h1>The biggest sale</h1>
+                        <h3>Special for today</h3>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+                <div class="single-slider1"><img src="img/banner2.jpg" alt="">
+                    <div class="cover">
+                        <h1>Summer Collection</h1>
+                        <h3>New Arrivals on Sale</h3>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+                <div class="single-slider1"><img src="img/banner3.jpg" alt="">
+                    <div class="cover">
+                        <h1>The biggest sale</h1>
+                        <h3>Special for today</h3>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+                <div class="single-slider1"><img src="img/banner4.jpg" alt="">
+                    <div class="cover">
+                        <h1>Summer Collection</h1>
+                        <h3>New Arrivals on Sale</h3>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+                <div class="single-slider1"><img src="img/banner5.jpg" alt="">
+                    <div class="cover">
+                        <h1>The biggest sale</h1>
+                        <h3>Special for today</h3>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WRAPPER3 -->
+
+    <div class="wrapper3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-2 gift_col">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <div class="col-md-10 gift_col">
+                            <p>BONUS PLUS</p>
+                            <span>Make fun of shopping and collect bonuses</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-2 gift_col">
+                            <i class="fas fa-bus-alt"></i>
+                        </div>
+                        <div class="col-md-10 gift_col">
+                            <p>FREE SHIPPING</p>
+                            <span>Free shipping on all orders over $99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-2 gift_col">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="col-md-10 gift_col">
+                            <p>MONEY BACK GUARANTEE</p>
+                            <span>30 Days money return guarantee</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-2 gift_col">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <div class="col-md-10 gift_col">
+                            <p>ONLINE SUPPORT 24/7</p>
+                            <span>Call us: (+100) 123 456 7890</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WRAPPER4 -->
+
+    <div class="wrapper4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="top_photo">
+                        <div class="cover cv">
+                            <div class="wrp4cv1">
+                                <h1>New Laptops</h1>
+                                <h3>Now starting at $1299</h3>
+                                <button>Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="bottom_photo bottom_photo1">
+                                <div class="cover cv">
+                                    <div class="wrp4cv2 wrpcv">
+                                        <h1>New mobile phone</h1>
+                                        <h3>Spcial for today</h4>
+                                            <button>Shop now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bottom_photo bottom_photo2">
+                                <div class="cover cv">
+                                    <div class="wrp4cv3 wrpcv">
+                                        <h1>Watch collection</h1>
+                                        <h3>Special for today</h4>
+                                            <button>Shop now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="top_right_photo top_right_photo1">
+                                <div class="cover cv">
+                                    <div class="wrp4cv4 wrpcv">
+                                        <h1>Summer collection</h1>
+                                        <h3>New arrivals on sale</h4>
+                                            <button>Shop now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="top_right_photo top_right_photo2">
+                                <div class="cover cv">
+                                    <div class="wrp4cv5 wrpcv">
+                                        <h1>Shoes for you</h1>
+                                        <h3>Now starting at $89</h4>
+                                            <button>Shop now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom_right_photo">
+                        <div class="cover cv">
+                            <div class="wrp4cv6">
+                                <h1>Popular jewellery brands</h1>
+                                <h3>Now starting at $1799</h3>
+                                <button>Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WRAPPER5 -->
+
+    <div class="wrapper5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 slider_topside">Featured</div>
+                <div class="col-md-3 slider_topside">On Sale</div>
+                <div class="col-md-3 slider_topside">Top Rated</div>
+                <div class="col-md-3 slider_topside">New Arrivals</div>
+            </div>
+            <div class="single-item" data-slick='{"slidesToShow": 4, "slidesToScroll": 2, "dots": false, "autoplay": false, "infinite": false}'>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/1-medium.png" style="width: 100%; height: 100%;" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Electronics</h4>
+                        <a href="">Keyboard</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p></p>
+                            <p>$175.00</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <p id="bottom_p">4 ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_bottom_side">
+                        <div class="center_side">
+                            <button><i class="fas fa-heart"></i></button>
+                            <button><i class="fas fa-cart-plus"></i></button>
+                            <button><i class="fas fa-file-archive"></i></button>
+                            <button><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="percent">15% OFF</div>
+                    <img src="img/2-medium.png" style="width: 100%; height: 100%;" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Electronics</h4>
+                        <a href="">PC All-in-one</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p id="top_p">$2.510.99</p>
+                            <p>$2.179.99</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <p id="bottom_p">8 ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_bottom_side">
+                        <div class="center_side">
+                            <button><i class="fas fa-heart"></i></button>
+                            <button><i class="fas fa-cart-plus"></i></button>
+                            <button><i class="fas fa-file-archive"></i></button>
+                            <button><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/3-medium.png" style="width: 100%; height: 100%;" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Electronics</h4>
+                        <a href="">Headset</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p></p>
+                            <p>$30.00</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <p id="bottom_p">12 ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_bottom_side">
+                        <div class="center_side">
+                            <button><i class="fas fa-heart"></i></button>
+                            <button><i class="fas fa-cart-plus"></i></button>
+                            <button><i class="fas fa-file-archive"></i></button>
+                            <button><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="percent">20% OFF</div>
+                    <img src="img/4-medium.png" style="width: 100%; height: 100%;" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Electronics</h4>
+                        <a href="">Pro-Book</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p id="top_p">$1.655.00</p>
+                            <p>$1.379.00</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <p id="bottom_p">6 ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_bottom_side">
+                        <div class="center_side">
+                            <button><i class="fas fa-heart"></i></button>
+                            <button><i class="fas fa-cart-plus"></i></button>
+                            <button><i class="fas fa-file-archive"></i></button>
+                            <button><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/5-medium.png" style="width: 100%; height: 100%;" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Electronics</h4>
+                        <a href="">Phone</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p></p>
+                            <p>$476.00</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <p id="bottom_p">2 ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_bottom_side">
+                        <div class="center_side">
+                            <button><i class="fas fa-heart"></i></button>
+                            <button><i class="fas fa-cart-plus"></i></button>
+                            <button><i class="fas fa-file-archive"></i></button>
+                            <button><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/6-medium.png" style="width: 100%; height: 100%;" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Electronics</h4>
+                        <a href="">All-in-One Printer</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p></p>
+                            <p>$450.00</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <p id="bottom_p">4 ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_bottom_side">
+                        <div class="center_side">
+                            <button><i class="fas fa-heart"></i></button>
+                            <button><i class="fas fa-cart-plus"></i></button>
+                            <button><i class="fas fa-file-archive"></i></button>
+                            <button><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-item sngitm" data-slick='{"slidesToShow": 5, "slidesToScroll": 1, "dots": false, "arrows": false, "autoplaySpeed": 2000, "autoplay": true, "infinite": true}'>
+                <div><img src="img/best.png" alt=""></div>
+                <div><img src="img/retro.png" alt=""></div>
+                <div><img src="img/love.png" alt=""></div>
+                <div><img src="img/the.png" alt=""></div>
+                <div><img src="img/easter.png" alt=""></div>
+                <div><img src="img/with.png" alt=""></div>
+                <div><img src="img/bravo.png" alt=""></div>
+                <div><img src="img/aloha.png" alt=""></div>
+                <div><img src="img/dream.png" alt=""></div>
+                <div><img src="img/congrats.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WRAPPER6 -->
+
+    <div class="wrapper6">
+        <div class="wrp6_topside">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Subscribe our Newsletter</h1>
+                    <h3>Stay up to date with our latest new and products</h3>
+                </div>
+                <div class="col-md-6 cm6">
+                    <input type="text" placeholder="Your email adress...">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrp6_middleside">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul>
+                        <li id="use_links">USEFUL LINKS</li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Compare</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 cmd4bot">
+                    <ul>
+                        <li id="use_links">CONTACT INFORMATION</li>
+                        <li><i class="fas fa-map-marker-alt"></i>2093 Avenue Z, Brooklyn, NY</li>
+                        <li><i class="fas fa-phone"></i>(212) 457-2308</a></li>
+                        <li><i class="far fa-envelope"></i>contact@emporium.com</li>
+                        <li><i class="far fa-clock"></i>Mon-Sun / 9:00AM-8:00PM</li>
+                        <li><i class="fas fa-directions"></i>Get directions</li>
+                        <li><i class="fas fa-bus"></i>Routes to us</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 ifrmcmd6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12157.53873246873!2d49.8613417!3d40.37816604999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1537112409071"
+                        width="95%" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrp6_bottomside">
+            <div class="row">
+                <div class="col-md-6 cmd6 l">
+                    <p>Copyright © 2018 All Rights Reserved
+                    </p>
+                </div>
+                <div class="col-md-6 cmd6 r">
+                    Designed & Developed by
+                    <a href="http://themeseason.com/">ThemeSeason</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
